@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp"
+    android:elevation="10sp"
+    android:background="@drawable/edit_text_shape"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingTop="10sp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/confirmation_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="@string/delete_reservation_msg"
+            android:layout_margin="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="13dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="5sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reservation_delete_btn_cancel"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/annuler"
+                android:textAllCaps="false"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/reservation_delete_btn_conf"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/je_confirme"
+                android:textAllCaps="false"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

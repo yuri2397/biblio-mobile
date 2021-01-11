@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.univ.thies.bibliothque">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BIbliothèque">
+        <activity
+            android:name=".views.Option"
+            android:label="@string/title_activity_option"
+            android:parentActivityName=".views.Profile"
+            android:theme="@style/Theme.BIbliothèque.NoActionBar"/>
+        <activity
+            android:name=".views.Settings"
+            android:parentActivityName=".views.Option"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".views.CountActivation"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".views.ForgotPassword"
+            android:parentActivityName=".views.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".views.Bibliotheque"
+            android:parentActivityName=".views.Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".views.Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".views.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Biblio</string>
+    <string name="forgot_password_text">Mot passe oublié?</string>
+    <string name="password_text">Mot de passe</string>
+    <string name="user_number_text">Numéro de dossier</string>
+    <string name="login_text_1">Se connecter</string>
+    <string name="login_text_2">Connectez-vous !</string>
+    <string name="reserver_le_livre">Reserver le livre</string>
+    <string name="forgot_password_text_1">Mot de passe\nOublié</string>
+    <string name="forgot_password_text_2">Adresse email</string>
+    <string name="forgot_password_text_3">Valider</string>
+    <string name="count_activation_text_1">Activer\nVotre compte</string>
+    <string name="count_activation_text_2">Code d\'activation</string>
+    <string name="count_activation_text_3">Activer</string>
+    <string name="profile_text_3">Vous pouvez réserver jusqu\'à deux livres, mais dans des domaines différentes. </string>
+    <string name="profile_text_1">Aucun livre réservé !</string>
+    <string name="profile_text_4">Aucun livre emprumté !</string>
+    <string name="profile_text_5">Vous devez réserver un livre, et passer à la bibliothèque pour valider l\'emprunt</string>
+    <string name="network_error_txt">Oups, veuillez vérifier votre connexion internet et réessayer.</string>
+    <string name="network_error_txt_1">Réessayer</string>
+    <string name="profile_text_6">Votre compte n\'est pas activé. Veuillez l\'activer.</string>
+    <string name="activation_text_1">Un mail contenant votre code d\'activation vous a été envoyé.</string>
+    <string name="book_not_found_message">Nous n\'avons trouvé aucun livre qui correspond à votre demande. Veuillez réessayer autre chose.</string>
+    <string name="searc_bar_hint">Rechercher un livre</string>
+    <string name="r_server_le_livre">Réserver le livre</string>
+    <string name="annuler">Annuler</string>
+    <string name="je_confirme">Je confirme</string>
+    <string name="delete_reservation_msg">Voulez-vous vraiment suprimer cette réservation?</string>
+    <string name="edit_password_text_1">Modifier\nMot de Passe</string>
+    <string name="mot_de_passe_courant">Mot de passe courant</string>
+    <string name="nouveau_mot_de_passe">Nouveau Mot de Passe</string>
+    <string name="title_activity_option">Option</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="info_version">Université Iba Der Thiam de Thiès\nVersion 2.1.8-andOM</string>
+    <string name="logout_text">Se Déconnecter</string>
+    <string name="change_password_text">Modifier votre mot de passe</string>
+    <string name="deconnexion_en_cour">Déconnexion en cour...</string>
+    <string name="traitement_en_cour">Traitement en cours...</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".views.Option">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:id="@+id/option_tool_bar"
+        app:title="Paramètres"
+        app:titleTextColor="@color/black"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.BIbliothèque.AppBarOverlay"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/option_change_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_password_text"
+            android:layout_marginLeft="10sp"
+            android:textSize="17sp"
+            android:drawablePadding="25sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_security_24" />
+
+        <TextView
+            android:clickable="true"
+            android:layout_marginTop="10sp"
+            android:id="@+id/option_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/logout_text"
+            android:layout_marginLeft="10sp"
+            android:drawablePadding="25sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10sp"
+            app:drawableLeftCompat="@drawable/ic_baseline_login_24" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/info_version"
+        android:gravity="bottom|center_horizontal"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
